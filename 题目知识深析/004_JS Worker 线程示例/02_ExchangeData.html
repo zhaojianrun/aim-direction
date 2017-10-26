@@ -1,0 +1,35 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset='utf-8' />
+    <title>多个线程交换数据</title>
+    <script>
+        var car = function () {
+            var start = document.getElementById("start1").value;
+            var end = document.getElementById("end1").value;
+            if (start >= end) {
+                return;
+            } else {
+                var cal = new Worker("02_ExchangeData.js");
+                // 定义需要提交给Worker线程的数据
+                var data = {
+                    start: start,
+                    end: end
+                };
+                // 向Worker线程提交数据。
+                cal.postMessage(JSON.stringify(data));
+                cal.onmessage = function (event) {
+                    document.getElementById("result").innerHTML += event.data + ",";
+                }
+            }
+        }
+           
+    </script>
+</head>
+<body>
+    起始值：<input type="text" id="start1" /><br />
+    结束值：<input type="text" id="end1" /><br />
+    <input type="button" value="查询质数" onclick="car();" />
+    <div id="result" style="width: 1500px; height: auto; border: 1px solid red; word-wrap: break-word;">
+    </div>
+</body>
+</html>

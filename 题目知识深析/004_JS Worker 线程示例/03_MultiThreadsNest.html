@@ -1,0 +1,33 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset='utf-8' />
+    <title>多个线程嵌套 </title>
+    <script>
+        var car = function () {
+            var start = document.getElementById("start1").value;
+            var end = document.getElementById("end1").value;
+            var count = document.getElementById("count1").value;
+
+            var worker = new Worker('03_MainThread.js');
+            var data = {
+                start: start,
+                end: end,
+                count: count
+            };
+            worker.postMessage(JSON.stringify(data));
+            worker.onmessage = function (event) {
+                document.getElementById("result").innerHTML += event.data + ",";
+            }
+
+        }
+    </script>
+</head>
+<body>
+    起始值：<input type="text" id="start1" /><br />
+    结束值：<input type="text" id="end1" /><br />
+    个数：<input type="text" id="count1" /><br />
+    <input type="button" value="点击" onclick="car();" />
+    <div id="result" style="width: 1500px; height: auto; border: 1px solid red; word-wrap: break-word;">
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动</title>
+    <style>
+        .child-one {
+            float: left;
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+        }
+        .parent-one{
+            border:1px solid yellow;
+        }
+
+        .child-two {
+            width: 300px;
+            height: 300px;
+            border: 1px solid blue;
+        }
+
+        .first {
+            float: left;
+            width: 300px;
+            height: 300px;
+            border: 1px solid blue;
+        }
+
+        .clearfix:after {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+
+        .clearfix\9 {
+            display: inline-block;
+        }
+
+        /* for IE/Mac */
+
+    </style>
+</head>
+<body>
+<div class="parent-one clearfix">
+    <div class="child-one">我是浮动的div</div>
+</div>
+<div class="child-two">我是第二个div</div>
+<div class="third">
+    <a href="#">仅仅是一个超链接</a>
+    <div class="first">这是第一个div</div>
+</div>
+</body>
+</html>
