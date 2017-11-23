@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825b4705-90f3-4f2e-858a-bf871e2809ff" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/示例/014_Gzip.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/示例/015_requestAnimationFrame.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/题目知识深析/015_CSS3动画那么强，requestAnimationFrame还有毛线用？.docx" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/题目知识深析/013_性能优化之 - 按需加载.docx" afterPath="$PROJECT_DIR$/题目知识深析/013_性能优化之 - 按需加载.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/题目知识深析/014_网页启用Gzip压缩 提高浏览速度.docx" afterPath="$PROJECT_DIR$/题目知识深析/014_网页启用Gzip压缩 提高浏览速度.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,12 +16,65 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="014_Gzip.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/示例/014_Gzip.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <folding>
+                <element signature="n#IIsCompressionScheme#1;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#IIsCompressionScheme#2;n#xml#0;n#!!top" expanded="false" />
+                <element signature="n#IIsCompressionScheme#3;n#xml#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="高级选择器.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/示例/高级选择器.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="015_requestAnimationFrame.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/示例/015_requestAnimationFrame.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/示例/014_Gzip.xml" />
+        <option value="$PROJECT_DIR$/示例/015_requestAnimationFrame.js" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -50,7 +107,6 @@
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -61,18 +117,24 @@
             <path>
               <item name="面试题" type="b2602c69:ProjectViewProjectNode" />
               <item name="面试题" type="462c0819:PsiDirectoryNode" />
+              <item name="示例" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="面试题" type="b2602c69:ProjectViewProjectNode" />
+              <item name="面试题" type="462c0819:PsiDirectoryNode" />
               <item name="题目知识深析" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Windows/System32/inetsrv" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -180,7 +242,8 @@
       <option name="presentableId" value="Default" />
       <updated>1510983999552</updated>
       <workItem from="1510984000720" duration="2578000" />
-      <workItem from="1511392880929" duration="920000" />
+      <workItem from="1511392880929" duration="1188000" />
+      <workItem from="1511446187859" duration="2484000" />
     </task>
     <task id="LOCAL-00001" summary="前端性能优化-HTTP添加Expires头">
       <created>1511001543533</created>
@@ -196,11 +259,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511002653543</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="013_性能优化之-按需加载-1">
+      <created>1511394238123</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1511394238123</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3498000" />
+    <option name="totallyTimeSpent" value="6250000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -217,7 +287,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -243,10 +313,41 @@
     <MESSAGE value="Merge branch 'master' of github.com:zhaojianrun/aim-direction&#10;&#10;# Conflicts:&#10;#&#9;示例/.idea/workspace.xml" />
     <MESSAGE value="前端性能优化-HTTP添加Expires头" />
     <MESSAGE value="012_解读前端性能优化之“配置ETag”" />
-    <option name="LAST_COMMIT_MESSAGE" value="012_解读前端性能优化之“配置ETag”" />
+    <MESSAGE value="013_性能优化之-按需加载-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="013_性能优化之-按需加载-1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/示例/014_Gzip.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <element signature="n#IIsCompressionScheme#1;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#IIsCompressionScheme#2;n#xml#0;n#!!top" expanded="false" />
+            <element signature="n#IIsCompressionScheme#3;n#xml#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/示例/高级选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/示例/015_requestAnimationFrame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

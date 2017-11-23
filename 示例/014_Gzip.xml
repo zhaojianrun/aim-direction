@@ -1,0 +1,75 @@
+<xml>
+    <IIsCompressionScheme Location="/LM/W3SVC/Filters/Compression/deflate"
+                          HcCompressionDll="%windir%\system32\inetsrv\gzip.dll"
+                          HcCreateFlags="0"
+                          HcDoDynamicCompression="TRUE"
+                          HcDoOnDemandCompression="TRUE"
+                          HcDoStaticCompression="FALSE"
+                          HcDynamicCompressionLevel="0"
+                          HcFileExtensions="htm
+html
+txt"
+                          HcOnDemandCompLevel="10"
+                          HcPriority="1"
+                          HcScriptFileExtensions="asp
+dll
+exe"
+    >
+    </IIsCompressionScheme>
+    <IIsCompressionScheme Location="/LM/W3SVC/Filters/Compression/gzip"
+                          HcCompressionDll="%windir%\system32\inetsrv\gzip.dll"
+                          HcCreateFlags="1"
+                          HcDoDynamicCompression="TRUE"
+                          HcDoOnDemandCompression="TRUE"
+                          HcDoStaticCompression="TRUE"
+                          HcDynamicCompressionLevel="0"
+                          HcFileExtensions="htm
+html
+txt"
+                          HcOnDemandCompLevel="10"
+                          HcPriority="1"
+                          HcScriptFileExtensions="asp
+dll
+exe"
+    >
+    </IIsCompressionScheme>
+    <IIsCompressionScheme Location="/LM/W3SVC/Filters/Compression/gzip"
+                          HcCompressionDll="%windir%\system32\inetsrv\gzip.dll"
+                          HcCreateFlags="1"
+                          HcDoDynamicCompression="TRUE"
+                          HcDoOnDemandCompression="TRUE"
+                          HcDoStaticCompression="TRUE"
+                          HcDynamicCompressionLevel="10"
+                          HcFileExtensions="html
+css
+js
+htm
+xml
+txt"
+                          HcOnDemandCompLevel="10"
+                          HcPriority="1"
+                          HcScriptFileExtensions="php
+dll"
+    >
+    </IIsCompressionScheme>
+    <IIsCompressionScheme Location="/LM/W3SVC/Filters/Compression/deflate"
+                          HcCompressionDll="%windir%\system32\inetsrv\gzip.dll"
+                          HcCreateFlags="2"
+                          HcDoDynamicCompression="TRUE"
+                          HcDoOnDemandCompression="TRUE"
+                          HcDoStaticCompression="TRUE"
+                          HcDynamicCompressionLevel="10"
+                          HcFileExtensions="html
+css
+js
+htm
+xml
+txt"
+                          HcOnDemandCompLevel="10"
+                          HcPriority="1"
+                          HcScriptFileExtensions="php
+dll"
+    >
+    </IIsCompressionScheme>
+
+</xml>
