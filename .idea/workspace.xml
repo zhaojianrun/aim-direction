@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825b4705-90f3-4f2e-858a-bf871e2809ff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/题目知识深析/029_DOM中的NodeList与HTMLCollection.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/示例/023_nodejs/http.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/示例/023_nodejs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/示例/023_nodejs/jquery-3.2.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/示例/024_Socket.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/示例/024_Socket.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/题目知识深析/018_js继承中关于对象字面量重写原型.docx" afterPath="$PROJECT_DIR$/题目知识深析/018_js继承中关于对象字面量重写原型.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/题目知识深析/020_document的createDocumentFragment.docx" afterPath="$PROJECT_DIR$/题目知识深析/020_document的createDocumentFragment.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/题目知识深析/021_getComputedStyle与currentStyle获取样式.docx" afterPath="$PROJECT_DIR$/题目知识深析/021_getComputedStyle与currentStyle获取样式.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/题目知识深析/022_comet基于HTTP长连接技术（java即时通信，推送技术详解）.docx" afterPath="$PROJECT_DIR$/题目知识深析/022_comet基于HTTP长连接技术（java即时通信，推送技术详解）.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/题目知识深析/023_WebSocket实例-nodejs和socket.io.docx" afterPath="$PROJECT_DIR$/题目知识深析/023_WebSocket实例-nodejs和socket.io.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/题目知识深析/024_用Server Send Event实现服务端推送.docx" afterPath="$PROJECT_DIR$/题目知识深析/024_用Server Send Event实现服务端推送.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,7 +23,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="http.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/示例/023_nodejs/http.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="024_Socket.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/示例/024_Socket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="725">
+              <caret line="29" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="e#1048#1049#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="024_Socket.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/示例/024_Socket.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,6 +82,10 @@
         <option value="$PROJECT_DIR$/示例/014_Gzip.xml" />
         <option value="$PROJECT_DIR$/示例/015_requestAnimationFrame.js" />
         <option value="$PROJECT_DIR$/示例/下载图片.html" />
+        <option value="$PROJECT_DIR$/示例/023_nodejs/http.js" />
+        <option value="$PROJECT_DIR$/示例/023_nodejs/index.html" />
+        <option value="$PROJECT_DIR$/示例/024_Socket.java" />
+        <option value="$PROJECT_DIR$/示例/024_Socket.html" />
       </list>
     </option>
   </component>
@@ -45,11 +95,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/示例/023_nodejs/node_modules" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
+    <option name="width" value="1932" />
+    <option name="height" value="1045" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -66,9 +119,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -79,7 +132,7 @@
             <path>
               <item name="aim-direction" type="b2602c69:ProjectViewProjectNode" />
               <item name="aim-direction" type="462c0819:PsiDirectoryNode" />
-              <item name="题目知识深析" type="462c0819:PsiDirectoryNode" />
+              <item name="示例" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -95,7 +148,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\aim-direction\示例\023_nodejs" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\aim-direction\示例\js" />
       <recent name="E:\aim-direction\示例\assets\js" />
     </key>
   </component>
@@ -208,7 +265,10 @@
       <workItem from="1511392880929" duration="1188000" />
       <workItem from="1511446187859" duration="2484000" />
       <workItem from="1511849457641" duration="716000" />
-      <workItem from="1511853317594" duration="3945000" />
+      <workItem from="1511853317594" duration="4180000" />
+      <workItem from="1511918914420" duration="64000" />
+      <workItem from="1511950643152" duration="498000" />
+      <workItem from="1512005220258" duration="10277000" />
     </task>
     <task id="LOCAL-00001" summary="前端性能优化-HTTP添加Expires头">
       <created>1511001543533</created>
@@ -256,10 +316,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15565000" />
+    <option name="totallyTimeSpent" value="26639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -270,7 +331,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25799572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26599148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -336,6 +397,25 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/示例/023_nodejs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="e#321#684#0" expanded="false" />
+            <element signature="e#748#1052#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/示例/023_nodejs/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/示例/014_Gzip.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -357,7 +437,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/示例/assets/js/jquery.min.js">
+    <entry file="file://$PROJECT_DIR$/示例/assets/js/jquery.min.js" />
+    <entry file="file://$PROJECT_DIR$/示例/下载图片.html" />
+    <entry file="file://$PROJECT_DIR$/示例/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -365,10 +447,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/示例/下载图片.html">
+    <entry file="file://$PROJECT_DIR$/示例/023_nodejs/jquery-3.2.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/示例/023_nodejs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <element signature="e#321#684#0" expanded="false" />
+            <element signature="e#748#1052#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/示例/清除浮动一.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/示例/023_nodejs/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/示例/024_Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/示例/024_Socket.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
