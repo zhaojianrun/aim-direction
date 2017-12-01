@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="node">
+    文本节点
+    <!-- 注释节点 -->
+    <span>node1</span>
+    <span>node2</span>
+    <span>node3</span>
+</div>
+</body>
+<script>
+  var node = document.getElementById('node'),
+    nodeLists = node.childNodes;
+  console.log(nodeLists.length) //     输出为9
+</script>
+
+</html>
